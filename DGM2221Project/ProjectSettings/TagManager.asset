@@ -6,6 +6,7 @@ TagManager:
   tags:
   - checkpoint 1
   - Falling Platform
+  - Hazard
   layers:
   - Default
   - TransparentFX
