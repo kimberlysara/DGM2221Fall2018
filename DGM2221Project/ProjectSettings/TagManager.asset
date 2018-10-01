@@ -7,6 +7,9 @@ TagManager:
   - checkpoint 1
   - Falling Platform
   - Hazard
+  - Spawn
+  - Hearts
+  - Red Button
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - 
   - PostProcessing
   - Platform
-  - 
+  - Hearts
   - 
   - 
   - 
@@ -46,4 +49,7 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 2523750253
+    locked: 0
+  - name: Hearts
+    uniqueID: 2401285487
     locked: 0
