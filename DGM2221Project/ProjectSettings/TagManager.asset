@@ -10,6 +10,10 @@ TagManager:
   - Spawn
   - Hearts
   - Red Button
+  - HeartCollectable
+  - Enemy
+  - EnemyThreshold
+  - AttackTrigger
   layers:
   - Default
   - TransparentFX

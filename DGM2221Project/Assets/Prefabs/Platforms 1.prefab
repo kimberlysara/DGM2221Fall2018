@@ -9,24 +9,24 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1748346969901476}
+  m_RootGameObject: {fileID: 1091073599394562}
   m_IsPrefabParent: 1
---- !u!1 &1748346969901476
+--- !u!1 &1091073599394562
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4265347958986968}
-  - component: {fileID: 114849888976391192}
-  - component: {fileID: 23439402076655668}
-  - component: {fileID: 33542946954330496}
-  - component: {fileID: 114594292838848190}
-  - component: {fileID: 65172030159804866}
-  - component: {fileID: 54531620880282204}
-  - component: {fileID: 114068700317815798}
-  - component: {fileID: 114751653476158834}
+  - component: {fileID: 4359984073883968}
+  - component: {fileID: 114507434221100542}
+  - component: {fileID: 23983581055923836}
+  - component: {fileID: 33365840170814006}
+  - component: {fileID: 114054433173356808}
+  - component: {fileID: 65960943367408932}
+  - component: {fileID: 54577752099857632}
+  - component: {fileID: 114355892848029068}
+  - component: {fileID: 114739033801912778}
   m_Layer: 9
   m_Name: Platforms 1
   m_TagString: Falling Platform
@@ -34,25 +34,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 41
   m_IsActive: 1
---- !u!4 &4265347958986968
+--- !u!4 &4359984073883968
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
+  m_GameObject: {fileID: 1091073599394562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.38, y: 38, z: 0.060000166}
-  m_LocalScale: {x: 0.79041636, y: 1.6466576, z: 1}
+  m_LocalPosition: {x: 88.03, y: 5.61, z: 22.36}
+  m_LocalScale: {x: 0.79041636, y: 0.77420014, z: 2.5229964}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23439402076655668
+--- !u!23 &23983581055923836
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
+  m_GameObject: {fileID: 1091073599394562}
   m_Enabled: 1
   m_CastShadows: 2
   m_ReceiveShadows: 1
@@ -82,19 +82,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33542946954330496
+--- !u!33 &33365840170814006
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
+  m_GameObject: {fileID: 1091073599394562}
   m_Mesh: {fileID: 0}
---- !u!54 &54531620880282204
+--- !u!54 &54577752099857632
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
+  m_GameObject: {fileID: 1091073599394562}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -104,38 +104,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
---- !u!65 &65172030159804866
+--- !u!65 &65960943367408932
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
+  m_GameObject: {fileID: 1091073599394562}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.08, y: 1.28, z: 1}
-  m_Center: {x: 1.9974996, y: 0.5749978, z: -0.5}
---- !u!114 &114068700317815798
+  m_Size: {x: 3.9949992, y: 1.1499995, z: 1}
+  m_Center: {x: 1.9974996, y: 0.57499975, z: -0.5}
+--- !u!114 &114054433173356808
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Platformposition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
---- !u!114 &114594292838848190
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
+  m_GameObject: {fileID: 1091073599394562}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
@@ -416,12 +402,38 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114751653476158834
+--- !u!114 &114355892848029068
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
+  m_GameObject: {fileID: 1091073599394562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Platformposition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &114507434221100542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091073599394562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _entityType: 0
+--- !u!114 &114739033801912778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091073599394562}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
@@ -431,15 +443,3 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: c9b080f677b487e4c87e99d57ea5669a, type: 2}
---- !u!114 &114849888976391192
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748346969901476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entityType: 0
