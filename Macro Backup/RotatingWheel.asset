@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: RotatingWheel
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":68.55913,"y":-16.94325},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-181.0,"y":-151.0},"guid":"30e0bc68-0e6f-4dad-a2f3-4e7569390e7b","$version":"A","$type":"Bolt.Update","$id":"9"},{"defaultValues":{"input":{"$content":60.0,"$type":"System.Single"}},"position":{"x":-224.0,"y":-44.0},"guid":"7bd28f86-2995-4dab-921c-02007ae79bd8","$version":"A","$type":"Bolt.ScalarPerSecond","$id":"11"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%xAngle":{"$content":0.0,"$type":"System.Single"},"%yAngle":{"$content":0.0,"$type":"System.Single"},"%zAngle":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-62.0,"y":-161.0},"guid":"f82834bd-e750-454a-ab96-ab8abde6facb","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"ecf70c54-6911-4bb8-9999-f2c89d71dd44","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%yAngle","guid":"e3c76dae-00fa-449c-b269-3defef828f1b","$type":"Bolt.ValueConnection"},{"position":{"xMin":-253.0,"yMin":-234.0,"xMax":164.0,"yMax":74.0},"label":"Group","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"96283bca-9085-49c9-b598-86c7742ca6bd","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
