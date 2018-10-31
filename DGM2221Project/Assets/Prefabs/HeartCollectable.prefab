@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114224838587319604}
   - component: {fileID: 95793529297304016}
   - component: {fileID: 65012614882647086}
+  - component: {fileID: 114977076470950556}
   m_Layer: 0
   m_Name: HeartCollectable
   m_TagString: HeartCollectable
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1614216610845292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.16, y: -2.91, z: 22.15}
+  m_LocalPosition: {x: 40.11, y: 1.49, z: -0.48}
   m_LocalScale: {x: 5.096375, y: 5.0963764, z: 5.0963764}
   m_Children: []
   m_Father: {fileID: 0}
@@ -87,6 +88,21 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &114977076470950556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614216610845292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: bb3617d2bbbe8a14b96ede310082a40b, type: 2}
 --- !u!212 &212656099398358026
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -123,7 +139,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e11e611b94e15274e919aba48ed6484e, type: 3}
-  m_Color: {r: 0.764151, g: 0.24150053, b: 0.24150053, a: 1}
+  m_Color: {r: 0.9528302, g: 0.19326274, b: 0.19326274, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

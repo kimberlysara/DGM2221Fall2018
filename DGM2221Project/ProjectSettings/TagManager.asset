@@ -15,6 +15,7 @@ TagManager:
   - EnemyThreshold
   - AttackTrigger
   - Bullet
+  - Ladder
   layers:
   - Default
   - TransparentFX
