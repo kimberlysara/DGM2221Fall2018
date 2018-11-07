@@ -16,6 +16,7 @@ TagManager:
   - AttackTrigger
   - Bullet
   - Ladder
+  - Breakable
   layers:
   - Default
   - TransparentFX
