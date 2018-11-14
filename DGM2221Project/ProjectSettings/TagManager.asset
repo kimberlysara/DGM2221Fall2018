@@ -17,6 +17,7 @@ TagManager:
   - Bullet
   - Ladder
   - Breakable
+  - BulletPickup
   layers:
   - Default
   - TransparentFX
