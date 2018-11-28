@@ -41,8 +41,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1091073599394562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.8829503, y: -2.3766472, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 81.57, y: 14.89, z: 1.01}
+  m_LocalScale: {x: 1, y: 1, z: 2.2295847}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 9e2e83a9e2ae069488ff819c4fc877b0, type: 2}
+  - {fileID: 2100000, guid: 3e16c8a7f543a9740bddd01df8638e3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
       localPivot: {x: -1.9974996, y: 0.57499975}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 9e2e83a9e2ae069488ff819c4fc877b0, type: 2}
+    _mat: {fileID: 2100000, guid: 3e16c8a7f543a9740bddd01df8638e3f, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -182,7 +182,7 @@ MonoBehaviour:
       localPivot: {x: -0.5, y: 0.57499975}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 9e2e83a9e2ae069488ff819c4fc877b0, type: 2}
+    _mat: {fileID: 2100000, guid: 3e16c8a7f543a9740bddd01df8638e3f, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -211,7 +211,7 @@ MonoBehaviour:
       localPivot: {x: 1.9974996, y: 0.57499975}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 9e2e83a9e2ae069488ff819c4fc877b0, type: 2}
+    _mat: {fileID: 2100000, guid: 3e16c8a7f543a9740bddd01df8638e3f, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -240,7 +240,7 @@ MonoBehaviour:
       localPivot: {x: 0.5, y: 0.57499975}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 9e2e83a9e2ae069488ff819c4fc877b0, type: 2}
+    _mat: {fileID: 2100000, guid: 3e16c8a7f543a9740bddd01df8638e3f, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -269,7 +269,7 @@ MonoBehaviour:
       localPivot: {x: 1.9974996, y: -0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 9e2e83a9e2ae069488ff819c4fc877b0, type: 2}
+    _mat: {fileID: 2100000, guid: 3e16c8a7f543a9740bddd01df8638e3f, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -298,7 +298,7 @@ MonoBehaviour:
       localPivot: {x: -1.9974996, y: -0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 9e2e83a9e2ae069488ff819c4fc877b0, type: 2}
+    _mat: {fileID: 2100000, guid: 3e16c8a7f543a9740bddd01df8638e3f, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -399,9 +399,17 @@ MonoBehaviour:
     areaError: 15
   asset_guid: 
   dontDestroyMeshOnDelete: 0
-  m_selectedFaces: 
-  m_SelectedEdges: []
-  m_selectedTriangles: 
+  m_selectedFaces: 00000000
+  m_SelectedEdges:
+  - x: 0
+    y: 1
+  - x: 2
+    y: 0
+  - x: 1
+    y: 3
+  - x: 3
+    y: 2
+  m_selectedTriangles: 000000000100000002000000010000000300000002000000
 --- !u!114 &114355892848029068
 MonoBehaviour:
   m_ObjectHideFlags: 1
