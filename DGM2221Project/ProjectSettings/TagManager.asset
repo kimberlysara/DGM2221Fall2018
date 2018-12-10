@@ -18,6 +18,7 @@ TagManager:
   - Ladder
   - Breakable
   - BulletPickup
+  - Decoy
   layers:
   - Default
   - TransparentFX
